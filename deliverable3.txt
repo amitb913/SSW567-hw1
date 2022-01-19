@@ -1,0 +1,11 @@
+What challenges did you encounter with this assignment, if any?
+    It was tricky to find out how to initially implement the unit tests. I ended up using pytest instead of the unittest module.
+
+What did you think about the requirements specification for this assignment?
+    I thought the requirements were interesting and allowed me to solve the problem in my own way. It was clear that there were several ways to accomplish the task, but I appreciated the freedom the problem allowed.
+
+What challenges did you encounter with the tools?
+    The unittest module was tricky to implement and I had to refresh my memory on certain Python basics (syntax, running the program).
+
+Describe the criteria you used to determine that you had sufficient test cases, i.e. how did you know you were done?
+    I knew there were sufficient test cases because I had one or more test cases for each possible outcome. 
