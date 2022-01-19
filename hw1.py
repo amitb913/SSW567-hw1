@@ -36,5 +36,17 @@ def test_classify_triangle():
     assert classify_triangle(6, 9, 3) == ('Scalene', False)
 
 
-print(classify_triangle(3, 4, 5))
+print("classify_triangle(3, 3, 3)):", classify_triangle(3, 3, 3))
+print("classify_triangle(4, 4, 4)):", classify_triangle(4, 4, 4))
+print("classify_triangle(10, 10, 10)):", classify_triangle(10, 10, 10))
+print("classify_triangle(1, 1, 2**0.5)):", classify_triangle(1, 1, 2**0.5))
+print("classify_triangle(3, 3, 4)):", classify_triangle(3, 3, 4))
+print("classify_triangle(3, 4, 5)):", classify_triangle(3, 4, 5))
+print("classify_triangle(5, 12, 13)):", classify_triangle(5, 12, 13))
+print("classify_triangle(1, 4, 7)):", classify_triangle(1, 4, 7))
+print("classify_triangle(6, 9, 3)):", classify_triangle(6, 9, 3))
+
 test_classify_triangle()
+
+# use python3 hw1.py to run the function itself
+# use pytest hw1.py to run the test
